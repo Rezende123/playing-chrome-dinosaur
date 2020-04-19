@@ -1,0 +1,23 @@
+{
+  "name": "playing-chrome-dinosaur",
+  "version": "1.0.0",
+  "description": "Usando rede neural para jogar o Chrome Dino Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rezende123/playing-chrome-dinosaur.git"
+  },
+  "author": "Felipe Rezende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rezende123/playing-chrome-dinosaur/issues"
+  },
+  "homepage": "https://github.com/Rezende123/playing-chrome-dinosaur#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.7.2",
+    "puppeteer": "^3.0.0"
+  }
+}
