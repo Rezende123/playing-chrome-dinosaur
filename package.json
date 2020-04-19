@@ -4,7 +4,7 @@
   "description": "Usando rede neural para jogar o Chrome Dino Game",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,31 @@
     "url": "https://github.com/Rezende123/playing-chrome-dinosaur/issues"
   },
   "homepage": "https://github.com/Rezende123/playing-chrome-dinosaur#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "file-loader": "^1.1.11",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.3"
+  },
   "dependencies": {
-    "@tensorflow/tfjs": "^1.7.2",
-    "puppeteer": "^3.0.0"
+    "@tensorflow/tfjs": "^0.9.0",
+    "babel-polyfill": "^6.26.0",
+    "dev": "^0.1.3"
   }
 }
